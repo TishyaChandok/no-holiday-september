@@ -1,0 +1,219 @@
+body {
+  background-color:lightgreen;
+   font-family: "showcard gothic", sans-serif;
+  color: black;
+    }
+
+h3{color: Magenta; 
+font-family:"Arial Black,Gadget,sans-serif"
+  }
+  nav ul {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+nav ul li {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+  nav ul {
+    background-color: tomato;
+      border-style: solid;
+  border-color: MediumVioletRed;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+img {border-radius: 10px;}
+nav ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+
+table, th, td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+tr {
+  background-color: PaleTurquoise;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: purple;
+}
+td {
+  color: purple;
+}
+.stylishBox {
+  background-color: #95D1BF;
+  color: #F92B7D1;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #D39A5E;
+  border-radius: 10px;
+}
+.someSpacing {
+  padding: 10px;
+  margin-top: 20px;
+}
+#myCoolText {
+    color: #999FFF;
+    border: 8px ridge #ccffff;
+    padding: 10px;
+    text-align: center;
+    background-color: #88EE99;
+     animation-name: rainbowGlow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+#frontPage {
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, lime 14.28%, cyan 21.42%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    animation: slide 10s infinite linear forwards;
+}
+#owly{
+  border-radius:100%;
+   width: 200px;
+   animation-name: rollOver;
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+@keyframes rollOver {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+@keyframes rainbowGlow {
+    0% {
+       color:#00BFFF;
+    }
+    25% {
+        color:#00FF7F;
+    }
+    50% {
+      color:#eeeeaf;
+    }
+    75% {
+      color:#eeafee;
+    }
+    100%{
+      color: #00BFFF;
+    }
+}
+@keyframes slide {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 600vw;
+    }
+}
+img {
+  border: 2px solid White;
+}
+img:hover {
+  border: 2px dashed Navy;
+}
+
+.niceLinks {
+  text-decoration: none;
+  color: #FFFAF0;
+}
+.niceLinks:hover {
+  color: #00FF7F;
+   animation-name: rainbowGlow;
+  animation-duration: 1.5s;
+  animation-iteration-count:infinite;
+}
+#plovery{
+  border-radius:100%;
+   width: 200px;
+   animation-name:  rollOver;
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+.tinyPicture {
+    height: 60px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: ""Arial Black,Gadget,sans-serif;
+    margin-left: auto;
+margin-right: auto;
+}
+.card:hover {
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
+.cardLink {
+    color: inherit;
+    text-decoration: none;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+@media all and (min-width: 1000px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************
+This section is for styling tables
+***********************************/
+table, th, td{
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+tr {
+  background-color: black;
+}
+th, td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color:cyan;
+}
+td {
+  color: cyan;
+}
+/********************************/
